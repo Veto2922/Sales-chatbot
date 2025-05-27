@@ -1,6 +1,9 @@
 # Sales Chatbot
 
-This project implements a simple sales chatbot using the Google Gemini API and Gradio for the user interface.
+This project implements a simple sales chatbot with answer streaming using the Google Gemini API and Gradio for the user interface.
+
+![image](https://github.com/user-attachments/assets/64cced34-f040-41ee-abbe-50d25bf71f97)
+
 
 ## Project Structure
 
