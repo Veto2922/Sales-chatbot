@@ -15,7 +15,7 @@ This project implements a simple sales chatbot using the Google Gemini API and G
 │   │   └── gemini_service.py
 │   └── ui/
 │       └── gradio_ui.py
-├── main.py
+├── app.py
 ├── requirements.txt
 └── README.md
 ```
@@ -25,7 +25,7 @@ This project implements a simple sales chatbot using the Google Gemini API and G
     - `src/services/`: Houses service-related code, like the Gemini API interaction.
     - `src/chatbot/`: Contains the core chatbot logic.
     - `src/ui/`: Contains the code for the user interface.
-- `main.py`: The entry point of the application.
+- `app.py`: The entry point of the application.
 - `requirements.txt`: Lists the project dependencies.
 - `README.md`: This file.
 
@@ -63,10 +63,10 @@ This project implements a simple sales chatbot using the Google Gemini API and G
 ## Running the Application
 
 1.  Make sure your virtual environment is activated.
-2.  Run the `main.py` file:
+2.  Run the `app.py` file:
 
     ```bash
-    python main.py
+    python app.py
     ```
 
 3.  A Gradio application will launch, providing a web-based chat interface to interact with the sales chatbot.

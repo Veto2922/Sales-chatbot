@@ -9,7 +9,7 @@ class SalesChatbot:
 
     def _load_system_prompt(self, file_path: str) -> str:
         try:
-            with open(file_path, 'r') as f:
+            with open(file_path, 'r', encoding='utf-8') as f:
                 return f.read().strip()
         except FileNotFoundError:
             raise FileNotFoundError(f"System prompt file not found at {file_path}")
